@@ -19,4 +19,4 @@ include 'includes/header.php';
 
 
 
-// include footer
+include 'includes/footer.php'; 
