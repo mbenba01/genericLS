@@ -1,3 +1,14 @@
 body {
-	background-color: red;
+	width: 100%;
+	height: 100%;
+	line-height: 1.6em;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.menu-container {
+	padding: 1em;
+	background-color: #eeefd3;
 }
