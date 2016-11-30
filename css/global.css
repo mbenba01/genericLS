@@ -11,4 +11,20 @@ body {
 .menu-container {
 	padding: 1em;
 	background-color: #eeefd3;
+	display: inline-block;
+}
+
+.primary-menu {
+	position: relative;
+	overflow: hidden;
+}
+
+.primary-menu li {
+	float: left;
+}
+
+.primary-menu li a {
+	display: block;
+	padding: 0 1em;
+	text-decoration: none;
 }
