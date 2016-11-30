@@ -12,5 +12,7 @@ include 'resources/resources.php';
 
 echo '</head>' . '<body>';
 
+include 'modules/main_menu.php';
+
 ?>
 
