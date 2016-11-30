@@ -1,0 +1,38 @@
+genericLS
+
+Generic Login System
+
+The aim of this project is to develop a generic login-system for their website. Your system should include the following aspects:
+
+1. Log-in:
+
+A visitor should be able to log-in to the website by entering a valid username and password in a form. Accompanying the log-in form should be a link to allow the visitor to register as a new user if required.
+
+2. Log-out:
+
+A logged in user will be able to log-out of the system, and a message will be displayed to this effect.
+
+3. Register page:
+
+A page to register as a user if the visitor does not currently have a username and password. The data you require from a visitor to register as a user is their full name, email address, a username and a password.
+
+4. Content pages:
+
+3 content pages are required. A publicly viewable default index page, one other public content page, and one content page that is only available to logged in users. The user should be able to browse between pages while maintaining their logged-in or out status, regardless of their browser settings.
+
+All pages should display a link or form to log-in or out depending on user state. If the user is logged in, the page should display the username of the logged in user. The content pages need not contain any actual content, but the area where this content would be added should be clearly indicated.
+
+A user navigating to any of the public content pages should be able to view the content directly whether they are logged-in or logged-out. The pages should clearly display their user status. If a logged out user tries to access the private content page, they should be politely requested to log-in.
+
+In addition to creating the login system as specified above, we must think about some additional functionality for the system. You have been asked to provide a brief description of how you might extend your system to include each of these features:  Only allow registration from a certain range of IP addresses.  After the user has logged in, redirection to the original page that they were viewing rather than always redirecting back to the index page.
+
+Note that these additional features listed above should not be implemented in your PHP login system, but should be clearly commented upon in your submitted learning log.
+
+The project must consider a future protected area to store customers' personal information and credit card details. You have been asked to write a brief comment on the security of your implemented solution, and whether it is adequate for this task. Working towards a Solution - Some Hints!
+
+The should be as robust as possible while providing a usable experience for visitors to the site - remember the motto of form submission "Never trust user input".
+
+It may also be helpful to carefully consider the following aspects before you begin any coding: 
+ Consider what data you will need to store, and where you will store it. This project will store user data in an external file. Consider the security implications of using such a file. 
+ Remember the quickest way to write this application is if you don't repeat any PHP or HTML code - it may be helpful to plan out some useful functions and/or include files that you could write once and then reuse throughout your project. 
+ You will need to maintain a user's state as they browse between pages - it may be useful to review the class slides on PHP security and session and cookie management.
