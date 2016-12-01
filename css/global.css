@@ -12,6 +12,7 @@ body {
 	padding: 1em;
 	background-color: #eeefd3;
 	display: inline-block;
+	margin-top: 40px;
 }
 
 .primary-menu {
@@ -27,4 +28,23 @@ body {
 	display: block;
 	padding: 0 1em;
 	text-decoration: none;
+}
+
+.login-form-container {
+	padding: 1em;
+	width: 100%;
+	text-align: right;
+}
+
+.login-form-container label {
+	vertical-align: bottom;
+	padding: .8em .5em 0 .5em;
+}
+
+.login-form-container input {
+	padding: .5em 0 .2em .4em;
+}
+
+.login-form-container > input[type='submit'] {
+	padding: 1em!important;
 }
