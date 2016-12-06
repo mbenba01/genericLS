@@ -11,6 +11,6 @@
 	$pass1 = str_replace('[+action+]', $self, $tpl);
 	$pass2 = str_replace('[+name+]', $name, $pass1);
 	$pass3 = str_replace('[+labelOne+]', $label_one, $pass2);
-	$final = str_replace('[+labelOne+]', $label_two, $pass3);
+	$final = str_replace('[+labelTwo+]', $label_two, $pass3);
 
 	echo $final;
