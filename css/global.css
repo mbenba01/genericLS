@@ -42,9 +42,10 @@ body {
 }
 
 .login-form-container input {
-	/* padding: .5em 0 .2em .4em; */
+	padding: .5em .75em;
 }
 
-.login-form-container > input[type='submit'] {
-	padding: 1em!important;
+.login-form-container input[type='submit'] {
+	padding: .5em .75em;
+	background-color: #e4cf36;
 }
