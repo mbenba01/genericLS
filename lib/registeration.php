@@ -1,6 +1,6 @@
 <?php
 
-class Registeration {
+class Registration {
 	
 	protected $file;
 	protected $mode;
