@@ -4,13 +4,13 @@ Generic Login System
 
 The aim of this project is to develop a generic login-system for their website. Your system should include the following aspects:
 
-1. Log-in:
+1. Login:
 
-A visitor should be able to log-in to the website by entering a valid username and password in a form. Accompanying the log-in form should be a link to allow the visitor to register as a new user if required.
+A visitor should be able to login to the website by entering a valid username and password in a form. Accompanying the login form should be a link to allow the visitor to register as a new user if required.
 
-2. Log-out:
+2. Logout:
 
-A logged in user will be able to log-out of the system, and a message will be displayed to this effect.
+A logged in user will be able to logout of the system, and a message will be displayed to this effect.
 
 3. Register page:
 

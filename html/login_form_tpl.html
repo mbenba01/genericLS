@@ -1,15 +1,21 @@
 <div class="login-form-container">
-
+   
 	<form action="[+action+]" name="[+name+]" method="post">
-	
-		<label for="username">[+labelOne+]</label>
-		<input type="text" name="username" id="username" required>
-		<label for="pwd">[+labelTwo+]</label>
-		<input type="password" name="password" id="pwd" required>
+		<input type="text" name="username" id="username" required placeholder="Username">
+		<input type="password" name="password" id="pwd" required placeholder="Password">
 		<input type="submit" value="Login" id="login-btn">
 		<a href="[+register+]">Register</a>
 		
 	</form>
-	
-	
+		
+</div>
+<div class="login-form-container responsive">
+	<ul>
+	<form action="[+action+]" name="[+name+]" method="post">
+		<li class="login-input"><input type="text" name="username" id="username" required placeholder="Username"></li>
+		<li class="login-input"><input type="password" name="password" id="pwd" required placeholder="Password"></li>
+		<li class="login-btn"><span class="login-registration-link"><a href="[+register+]">Register</a></span><input type="submit" value="Login" id="login-btn"></li>
+		
+	</form>
+	</ul>  	
 </div>

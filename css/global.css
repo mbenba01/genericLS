@@ -35,6 +35,9 @@ body {
 	width: 100%;
 	text-align: right;
 }
+.login-form-container.responsive {
+	display: none;
+}
 
 .login-form-container label {
 	vertical-align: bottom;
