@@ -5,7 +5,7 @@
 	
 	$self = htmlentities ( $_SERVER ['PHP_SELF'] );
 	$name = 'login-form';
-	$registration_page = 'register.php?' . SID;
+	$registration_page = 'registration_manager.php?' . SID;
 
 	$pass1 = str_replace('[+action+]', $self, $tpl);
 	$pass2 = str_replace('[+name+]', $name, $pass1);
