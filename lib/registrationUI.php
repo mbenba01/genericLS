@@ -59,6 +59,8 @@ class RegistrationForm {
 					</fieldset>
 				</form>';
 		
+		print $from;
+		
 	}
 	
 	
