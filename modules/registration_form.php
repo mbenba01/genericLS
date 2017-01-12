@@ -1,6 +1,6 @@
 <?php
 	
-	$registration_form = 'html/registration_form_tpl.html';
+	$registration_form = dirname(__DIR__) . '/html/registration_form_tpl.html';
 	$tpl = file_get_contents ( $registration_form );
 	
 	$self = htmlentities ( $_SERVER ['PHP_SELF'] );
